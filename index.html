@@ -1,13 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Landing Page</title>
 </head>
+
 <body>
-    
+    <!--HEADER-->
+    <header>
+        <figure class="logo">
+            <img src="./assets/your_logo.png" alt="your logo here">
+        </figure>
+        <!--NAVBAR-->
+        <nav>
+            <ul>
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--HERO-->
+    <section class="hero" id="hero">
+        <div class="hero__header">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is
+                lower</p>
+            <button class="btn" type="submit">Sign up</button>
+        </div>
+        <figure class="hero__img">
+            <img src="./assets/your_brand.png" alt="this is a placeholder for an image">
+        </figure>
+    </section>
+    <!--INFO SECTION-->
+    <section class="info">
+        <h2>Some random information</h2>
+        <div class="card-container">
+            <!--CARD 1-->
+            <figure class="info__card">
+                <img src="./assets/your_logo.png" alt="">
+                <figcaption>
+                    This is some subtext under an illustration or image
+                </figcaption>
+            </figure>
+            <!--CARD 2-->
+            <figure class="info__card">
+                <img src="./assets/your_logo.png" alt="your logo here">
+                <figcaption>
+                    This is some subtext under an illustration or image
+                </figcaption>
+            </figure>
+            <!--CARD 3-->
+            <figure class="info__card">
+                <img src="./assets/your_logo.png" alt="">
+                <figcaption>
+                    This is some subtext under an illustration or image
+                </figcaption>
+            </figure>
+            <!--CARD 4-->
+            <figure class="info__card">
+                <img src="./assets/your_logo.png" alt="">
+                <figcaption>
+                    This is some subtext under an illustration or image
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <!--QUOTE & TESTIMONIAL-->
+    <section class="quote">
+        <p class="quote__text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up
+            space, or maybe
+            people will actually read it. Who knows? All I know is that it looks nice</p>
+        <p class="quote__auth">-Thor, God of Thunder</p>
+    </section>
+    <!--CTA-->
+    <section class="cta">
+        <div class="cta__banner">
+            <div class="cta__banner--text">
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="cta__banner--btn" type="submit">Sign up</button>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <p>Copyright ©</p>
+        <h4>The Odin Project 2023</h4>
+    </footer>
 </body>
+
 </html>
