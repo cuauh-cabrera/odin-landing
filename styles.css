@@ -28,7 +28,6 @@ ol a {
 
 /*HEADER*/
 header {
-    border: dotted red 2px;
     width: 100%;
     top: 0;
     background-color: #1f2937;
@@ -41,12 +40,10 @@ header {
 }
 
 .logo {
-    border: yellowgreen solid 1px;
     display: contents;
 }
 
 .logo > img {
-    border: dotted blue 2px;
     width: 13vw;
     height: auto;
     margin-left: 5rem;
@@ -54,7 +51,6 @@ header {
 
 /*NAVBAR*/
 nav {
-    border: dotted yellow 2px;
     width: 50%;
     height: 10vh;
     margin-right: 1rem;
@@ -62,7 +58,6 @@ nav {
 }
 
 nav > ul {
-    border: solid paleturquoise 1px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -71,13 +66,11 @@ nav > ul {
 }
 
 nav > ul > li {
-    border: solid red 1px;
     width: 25%;
     text-align: center;
 }
 
 nav > ul > li > a {
-    border: solid whitesmoke 1px;
     width: 100%;
     color: #e5e7eb;
     font-size: 18px;
@@ -85,7 +78,6 @@ nav > ul > li > a {
 
 /*HERO SECTION*/
 .hero {
-    border: dotted red 2px;
     margin-top:7rem;
     width: 100%;
     height: 60vh;
@@ -97,7 +89,6 @@ nav > ul > li > a {
 }
 
 .hero__header {
-    border: solid whitesmoke 1px;
     width: 40%;
     height: max-content;
     display: flex;
@@ -107,7 +98,6 @@ nav > ul > li > a {
 }
 
 .hero__header > h1 {
-    border: solid red 1px;
     width: 80%;
     text-align: start;
     color: #f9faf8;
@@ -116,7 +106,6 @@ nav > ul > li > a {
 }
 
 .hero__header > p {
-    border: solid purple 1px;
     width: 90%;
     text-align: start;
     margin-top: 0.5rem;
@@ -143,12 +132,10 @@ nav > ul > li > a {
 }
 
 .hero__img {
-    border: solid whitesmoke 1px;
     display: contents;
 }
 
 .hero__img > img {
-    border: solid whitesmoke 1px;;
     width: 40%;
     height: 35vh;
     object-fit: contain;
@@ -156,7 +143,6 @@ nav > ul > li > a {
 
 /*INFO SECTION*/
 .info {
-    border: dotted red 2px;
     width: 100%;
     height: 80vh;
     display: flex;
@@ -167,7 +153,6 @@ nav > ul > li > a {
 }
 
 .info > h2 {
-    border: solid purple 1px;
     width: 100%;
     margin-top: 3rem;
     text-align: center;
@@ -177,7 +162,6 @@ nav > ul > li > a {
 }
 
 .card-container {
-    border: solid blue 1px;
     width: 90%;
     height: 50vh;
     margin-top: 2rem;
@@ -189,7 +173,6 @@ nav > ul > li > a {
 }
 
 .info__card  {
-    border: solid green 1px;
     width: 40%;
     height: 40vh;
     display: flex;
@@ -208,7 +191,6 @@ nav > ul > li > a {
 }
 
 .info__card > figcaption {
-    border: solid red 1px;
     width: 70%;
     text-align: center;
     color: #1f2937;
@@ -218,7 +200,6 @@ nav > ul > li > a {
 
 /*QUOTE SECTION*/
 .quote {
-    border: dotted red 2px;
     background-color: #e5e7eb;
     width: 100%;
     height: 40vh;
@@ -229,17 +210,16 @@ nav > ul > li > a {
 }
 
 .quote__text {
-    border: solid blue 1px;
-    width: 60%;
+    width: 70%;
     color: #1f2937;
     font-size: 2.15rem;
     font-style: italic;
     font-weight: 300;
     text-align: start;
+    line-height: 3rem;
 }
 
 .quote__auth {
-    border: solid green 1px;
     width: 60%;
     text-align: end;
     font-size:  1.8rem;
@@ -249,6 +229,80 @@ nav > ul > li > a {
 
 /*CTA*/
 .cta {
-    border: dotted red 2px;
     width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.cta__banner {
+    border-radius: 8px;
+    background-color: #3882f6;
+    width: 60%;
+    height: 20vh;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta__banner--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cta__banner--text > h3 {
+    text-align: start;
+    color: #e5e7eb;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.cta__banner--text > p {
+    color: #e5e7eb;
+    font-size: 1rem;
+}
+
+.cta__banner--btn {
+    border: solid #f3f3f3 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 1rem;
+    width: 20%;
+    padding: 0.6rem;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.cta__banner--btn:hover {
+    background-color: #f3f3f3;
+    color: #1866f8;
+    transition: 1s;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #1f2937;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer > p,
+h4 {
+    color: #e5e7eb;
+    font-size: 1.15rem;
+    font-weight: 300;
 }
