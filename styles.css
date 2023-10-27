@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul,
@@ -24,4 +24,132 @@ ul a,
 ol a {
     text-decoration: none;
     color: black;
+}
+
+/*HEADER*/
+header {
+    border: dotted red 2px;
+    width: 100%;
+    top: 0;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    border: yellowgreen solid 1px;
+    display: contents;
+}
+
+.logo > img {
+    border: dotted blue 2px;
+    width: 13vw;
+    height: auto;
+    margin-left: 5rem;
+}
+
+/*NAVBAR*/
+nav {
+    border: dotted yellow 2px;
+    width: 50%;
+    height: 10vh;
+    margin-right: 1rem;
+    display: flex;
+}
+
+nav > ul {
+    border: solid paleturquoise 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > ul > li {
+    border: solid red 1px;
+    width: 25%;
+    text-align: center;
+}
+
+nav > ul > li > a {
+    border: solid whitesmoke 1px;
+    width: 100%;
+    color: #e5e7eb;
+    font-size: 18px;
+} 
+
+/*HERO SECTION*/
+.hero {
+    border: dotted red 2px;
+    margin-top:7rem;
+    width: 100%;
+    height: 60vh;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero__header {
+    border: solid whitesmoke 1px;
+    width: 40%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.hero__header > h1 {
+    border: solid red 1px;
+    width: 80%;
+    text-align: start;
+    color: #f9faf8;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.hero__header > p {
+    border: solid purple 1px;
+    width: 90%;
+    text-align: start;
+    margin-top: 0.5rem;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    width: 20%;
+    padding: 0.6rem;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #1866f8;
+    transition: 1s
+}
+
+.hero__img {
+    border: solid whitesmoke 1px;
+    display: contents;
+}
+
+.hero__img > img {
+    border: solid whitesmoke 1px;;
+    width: 40%;
+    height: 35vh;
+    object-fit: contain;
 }
